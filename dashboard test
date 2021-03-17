@@ -34,8 +34,8 @@
            Example: conversion="B0+15*(B1-43)" and conversionABC="A+15*(B-43)" produce the same result -->
 
       <!-- 1st CAN frame, RPM, MAP, CLT, TPS -->
-      <value targetId="160" units="I/O" offset="0" length="1"></value>
-      <value targetId="161" units="I/O" offset="0" length="1"></value>
+      <value targetId="160" units="0/1" offset="0" length="1"></value>
+      <value targetId="161" units="0/1" offset="0" length="1"></value>
       <value targetId="14" units="C" offset="4" length="2" conversion="V-100"></value>
       <value targetId="42" units="%" offset="6" length="2" conversion="V/10"></value>
     </frame>
